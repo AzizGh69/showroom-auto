@@ -1,0 +1,9 @@
+<form>
+  <label>Brand</label>
+  <input #brand type="text" placeholder="Sample : BMW">
+  <button type="button" (click)="searchAutoList(brand.value)">Search</button>
+</form>
+<div *ngFor="let auto of results">
+  {{ auto.model }}
+  <button (click)="selectedAuto(auto)">View</button>
+</div>

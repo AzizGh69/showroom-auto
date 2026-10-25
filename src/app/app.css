@@ -1,0 +1,5 @@
+.details { display: flex; align-items: center; gap: 40px; margin: 20px; }
+.info { width: 250px; }
+.details img { width: 350px; }
+h4 { color: #3a9bbf; border-bottom: 2px solid #3a9bbf; margin: 10px 0 4px; }
+p { text-align: right; margin: 0; }

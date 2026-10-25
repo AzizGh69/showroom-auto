@@ -1,0 +1,33 @@
+form {
+    border: solid black 2px;
+    padding: 20px;  
+    margin: 20px; 
+    border-radius: 14px
+    ;
+}
+label {
+  color: #3a9bbf;
+  font-weight: bold;
+  margin: 4px;
+}
+
+input {
+  padding: 6px 10px;
+  border: 2px solid #3a9bbf;
+  border-radius: 6px;
+  width: 220px;
+  margin: 4px;
+
+}
+
+button {
+  padding: 6px 24px;
+  background-color: #2b9fb3;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #1d6f80;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 4px;
+
+}
